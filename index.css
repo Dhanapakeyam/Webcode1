@@ -1,0 +1,73 @@
+body{
+    background: url("./images/bg.jpg");
+    overflow-y :auto;
+    scroll-behavior:auto;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-top: 20px;
+}
+#label1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 100px;
+    font-size: larger;
+}
+.brand{
+    color: aliceblue;
+    font-size: large;
+}
+
+#table1{
+    margin-left: 100px;
+    padding-top: 300px;
+}
+thead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    color: chocolate;
+    text-align: left;
+}
+th{
+    width: 150px;
+    text-align: center;
+}
+#prdImg{
+    width: 60px;
+    height :60px;
+}
+#tabledata{
+    color: aliceblue;
+    text-align: center;
+    
+}
+td{
+    width : 150px;
+    height:60px;
+}
+#buttonPanel{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 200px;
+    padding-top: 30px;
+    bottom : 10px;
+    position: fixed;
+}
+#tabledata1{
+    color: aliceblue;
+    text-align: justify;
+    width: 300px;
+    font-size: small;
+}
+#prevButton,#nextButton{
+   background-color: chocolate;
+   color :aliceblue;
+padding: 0px 15px;
+}
